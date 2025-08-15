@@ -1,3 +1,17 @@
+streamlit
+pandas
+numpy
+plotly
+matplotlib
+altair
+seaborn
+scikit-learn
+xgboost
+openpyxl
+requests
+python-dateutil
+pytz
+tqdm
 
 
 streamlit==1.37.1
