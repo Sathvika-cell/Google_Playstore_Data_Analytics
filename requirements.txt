@@ -1,21 +1,17 @@
-streamlit
-pandas
-numpy
-plotly
-matplotlib
-altair
-seaborn
-scikit-learn
-xgboost
-openpyxl
-requests
-python-dateutil
-pytz
-tqdm
+# Core app framework
+streamlit==1.37.0
 
-
-streamlit==1.37.1
+# Data manipulation
 pandas==2.2.2
-plotly==5.22.0
 numpy==1.26.4
-matplotlib==3.8.4
+
+# Visualization
+plotly==5.24.0
+matplotlib==3.9.1
+seaborn==0.13.2
+
+# Data requests and APIs
+requests==2.32.3
+
+# Machine learning / utilities
+scikit-learn==1.5.1
