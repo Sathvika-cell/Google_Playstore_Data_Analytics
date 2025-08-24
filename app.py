@@ -1,3 +1,16 @@
+# app.py
+
+import os
+
+# Fix for PermissionError
+os.environ["STREAMLIT_CONFIG_DIR"] = os.path.expanduser("~/.streamlit")
+
+# Now import Streamlit
+import streamlit as st
+
+# Your Streamlit code starts here
+st.title("My Streamlit App")
+st.write("Hello, world!")
 
 import os
 import json
